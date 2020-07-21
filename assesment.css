@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,900,800,700,600,500,300,200,100);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "Exo 2", sans-serif;
+  font-size: 100%;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+body {
+  font-family: "Exo 2", sans-serif;
+  font-size: 100%;
+  font-weight: 300;
+}
+.clearfix {zoom: 1}
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}

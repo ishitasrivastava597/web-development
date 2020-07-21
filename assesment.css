@@ -26,3 +26,81 @@ body {
   height: 0;
   visibility: hidden;
 }
+/* ----------------------------------------------------------------------------------------------- */
+
+.header{
+    padding: 30px;
+    align-content: right;
+    position: relative;
+    vertical-align: middle;
+}
+
+.header img {
+    width: 10%;
+    height: auto;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.header a {
+    vertical-align: middle;
+    text-align: right;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: auto;
+    color: #AAAAAA;
+}
+
+.header a:first-child {
+    color: #000000; 
+}
+.header a:last-child {
+    margin-right: 50px;
+}
+.header div{
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    right: 0;
+}
+.main-content img{
+    width: 100%;
+    height: auto;
+}
+
+.footer{
+    position: relative;
+    margin-top: 100px;
+}
+
+.social {
+    width: 15%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.round {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    padding: 10px;
+    width: 20%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+.round img {
+    width: 90%;
+    height: auto;
+}
+
+.foot {
+    position: absolute;
+    bottom: 0;
+    background-color: #EEEEEE;
+    height: 20vh;
+}

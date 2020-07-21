@@ -131,6 +131,16 @@ body {
     color: #000000;
 }
 
+.foo a::after{
+    content: '|';
+    margin-left: 15px;
+}
+
+.foo a:last-child::after{
+    content: '';
+    margin-left: 15px;
+}
+
 .foo a:hover {
     color: coral;
 }

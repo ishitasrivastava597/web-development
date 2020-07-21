@@ -72,8 +72,15 @@ body {
     height: auto;
 }
 
-.footer{
+.invisible {
     position: relative;
+    width: 100%;
+    height: calc( 100px + 100px + 20vh );
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
     margin-top: 100px;
 }
 

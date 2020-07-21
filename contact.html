@@ -22,38 +22,68 @@
 
 
     <div class="main-content">
-        <img src="./assets/forest-1024x679.jpeg" />
+        <div class="contact-header">Contact Us</div>
+        <div>
+            <form>
+                <div class="form-row">
+                    <input required placeholder="*First Name"/>
+                    <input required placeholder="*Last Name"/>
+                </div>
+                <div class="form-row">
+                    <input required placeholder="*Email"/>
+                    <input pattern="^[0-9]{10}$" required placeholder="*Phone Number"/>
+                </div>
+                <div class="form-row">
+                    <select required>
+                        <option value="" disabled selected>Inquiry Type</option>
+                        <option value="hurr">personal</option>
+                        <option value="hurr">group</option>
+                        <option value="hurr">corporate</option>
+                    </select>
+                    <input required placeholder="*Company"/>
+                </div>
+                <div class="form-row">
+                    <textarea placeholder="*Description"></textarea>
+                </div>
+                <div class="form-submit">
+                    <input type="submit" />
+                </div>
+            </form>
+        </div>
     </div>
 
 
-
-    <div class="footer">
-        <div class="social">
-            <div class="round">
-                <img src="./assets/facebook.png" />
+    <div class="invisible">
+    
+        <div class="footer">
+            <div class="social">
+                <div class="round">
+                    <img src="./assets/facebook.png" />
+                </div>
+                <div class="round">
+                    <img src="./assets/twitter.png" />
+                </div>
+                <div class="round">
+                    <img src="./assets/google-plus.png" />
+                </div>
+                <div class="round">
+                    <img src="./assets/linkedin.png" />
+                </div>
             </div>
-            <div class="round">
-                <img src="./assets/twitter.png" />
-            </div>
-            <div class="round">
-                <img src="./assets/google-plus.png" />
-            </div>
-            <div class="round">
-                <img src="./assets/linkedin.png" />
-            </div>
-        </div>
-        <div class="foot">
-            <div class="foo">
-                <div>
-                    <a href="#">ABOUT US</a>
-                    <a href="#">DEVELOPERS</a>
-                    <a href="#">BLOG</a>
-                    <a href="#">WIZARDS WANTED</a>
-                    <a href="#">PRESS</a>
-                    <a href="#">CONTACT</a>
+            <div class="foot">
+                <div class="foo">
+                    <div>
+                        <a href="#">ABOUT US</a>
+                        <a href="#">DEVELOPERS</a>
+                        <a href="#">BLOG</a>
+                        <a href="#">WIZARDS WANTED</a>
+                        <a href="#">PRESS</a>
+                        <a href="#">CONTACT</a>
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
 </body>
 </html>

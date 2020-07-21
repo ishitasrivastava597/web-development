@@ -51,11 +51,9 @@ body {
     color: #AAAAAA;
 }
 
-.header a:first-child {
-    color: #000000; 
-}
 .header a:last-child {
     margin-right: 50px;
+    color: #000000;
 }
 .header a:hover {
     color: coral;

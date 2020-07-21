@@ -99,8 +99,22 @@ body {
 }
 
 .foot {
-    position: absolute;
-    bottom: 0;
+    position: relative;
     background-color: #EEEEEE;
     height: 20vh;
+    width: 100%;
+}
+
+.foo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    
+    text-align: center;
+}
+.foo div {
+    padding: 10px;
+    display: inline-block;
 }

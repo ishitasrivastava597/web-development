@@ -57,11 +57,15 @@ body {
 .header a:last-child {
     margin-right: 50px;
 }
+.header a:hover {
+    color: coral;
+}
 .header div{
     position: absolute;
     display: inline-block;
     vertical-align: middle;
     right: 0;
+    top: 40%;
 }
 .main-content img{
     width: 100%;
@@ -78,7 +82,7 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 .round {
@@ -111,10 +115,22 @@ body {
     right: 0;
     left: 0;
     margin: auto;
-    
     text-align: center;
 }
 .foo div {
     padding: 10px;
     display: inline-block;
+}
+
+.foo a {
+    vertical-align: middle;
+    text-align: right;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: auto;
+    color: #000000;
+}
+
+.foo a:hover {
+    color: coral;
 }
